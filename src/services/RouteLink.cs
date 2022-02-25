@@ -19,7 +19,7 @@ namespace Miccore.Pagination.Service
         // Returns:
         //     the pagination Model with next and previous urls if exist.
         
-        public static PaginationModel<TModel> AddingRouterLink<TModel>(
+        public static PaginationModel<TModel> AddRouteLink<TModel>(
             this PaginationModel<TModel> paginationModel,
             string nameOfFunction,
             PaginationQuery query
