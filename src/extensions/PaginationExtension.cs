@@ -1,9 +1,12 @@
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 using Miccore.Pagination.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
-    internal static class PaginationExtension{
+    public static class PaginationExtension{
          //
         // Summary:
         //    Pagination extension

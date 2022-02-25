@@ -2,7 +2,7 @@ using System.ComponentModel;
 
 namespace Miccore.Pagination.Model
 {
-    internal class PaginationQuery{
+    public class PaginationQuery{
         [DefaultValue(false)]
         public bool paginate { get; set;}
         [DefaultValue(1)]
