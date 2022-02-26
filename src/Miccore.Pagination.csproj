@@ -3,7 +3,15 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>Miccore.Net.Pagination</RootNamespace>
-    <Description>Miccore.Net.Pagination</Description>
+    <PackageId>Miccore.Net.Pagination</PackageId>
+    <Version>1.0.0</Version>  
+		<PackageOutputPath>./miccore-nupkg</PackageOutputPath>
+		<Authors>Manher</Authors>
+		<Description>
+       Library for pagination of list in dotnet core project
+    </Description>
+		<PackageTags>miccore.net.pagination, dotnet core 6.0, .net core, pagination</PackageTags>
+		<RepositoryUrl>https://github.com/MbakopManuel/miccore.pagination.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
