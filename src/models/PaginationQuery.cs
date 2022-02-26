@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace Miccore.Pagination.Model
+namespace Miccore.Net.Pagination.Model
 {
     public class PaginationQuery{
         [DefaultValue(false)]

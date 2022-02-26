@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Miccore.Pagination.Model
+namespace Miccore.Net.Pagination.Model
 {
     public class PaginationModel<TModel>{
         const int MaxPageSize = 100;

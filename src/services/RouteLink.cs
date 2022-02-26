@@ -1,6 +1,6 @@
-using Miccore.Pagination.Model;
+using Miccore.Net.Pagination.Model;
 
-namespace Miccore.Pagination.Service
+namespace Miccore.Net.Pagination.Service
 {
     public static class RouterLink{
 
